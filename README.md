@@ -12,7 +12,7 @@ python3 escaperoom.py
 ## En caso que crashee
 Puede que apenas abra se crashee un poco. Encontré dos formas de resolverlo:
 1. Cancelar la ejecución (`Ctrl+C`) y volver a ejecutar.
-2. Cancelando la ejecución (`Ctrl+C`), limpiando la terminal (`Ctrl+L` o correr `clear`) y volviendo a ejecutar.
+2. Cancelar la ejecución (`Ctrl+C`), limpiar la terminal (`Ctrl+L` o correr `clear`) y volver a ejecutar.
 
 # Defaults
 Por default el nombre de usuarix es `pascu`, la contraseña es `pasculindo` y el temporizador se pausa cuando se detiene la tarea llamada `Plan Malvado`.
