@@ -6,8 +6,9 @@ Para accederlo, les jugadores necesitan ingresar el usuarix y la contraseña cor
 # Ejecución
 El script se corre en `/2024` con:
 ```console
-python3 escaperoom.py
+python3 escaperoom.py [minutes]
 ```
+Donde `minutes` es la cantidad de minutos inicial del temporizador. El temporizador toma valores enteros entre 1 y 99. En caso de recibir una cantidad de minutos inválida, el default son 10 minutos.
 
 ## En caso que crashee
 Puede que apenas abra se crashee un poco. Encontré dos formas de resolverlo:
