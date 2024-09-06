@@ -1,6 +1,8 @@
 import curses
 import threading
 import sys
+import os
+
 from clock_window import clock_window
 from login_window import login_window
 from app_window   import app_window
@@ -9,7 +11,7 @@ from app_window   import app_window
 if len(sys.argv)>1 and int(sys.argv[1]) in range(1,100):
     minutes = int(sys.argv[1])
 else:
-    minutes = 10
+    minutes = 45
 
 def main_window(login_win, app_win, stop_clock):
     login_window(login_win)
@@ -18,6 +20,7 @@ def main_window(login_win, app_win, stop_clock):
 def main(stdscr):
 
     curses.curs_set(0)
+    curses.use_default_colors()
 
     height, width = stdscr.getmaxyx()
 
@@ -39,5 +42,11 @@ def main(stdscr):
     clock.join()
     main.join()
 
+
 if __name__ == "__main__":
-    curses.wrapper(main)
+
+    rows, columns = os.popen('stty size', 'r').read().split()
+    if int(rows) < 35 or int(columns) < 90:
+        print("¡Error! La ventana es muy chiquita. Ejecutá el script en una ventana más grande.")
+    else:
+        curses.wrapper(main)

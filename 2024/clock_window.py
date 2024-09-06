@@ -151,8 +151,8 @@ def print_time(win, y, x, number_1, number_2, number_3, number_4, theme):
 def clock_window(win, minutes, stop_clock):
 
     seconds = minutes * 60
-    curses.init_pair(2, curses.COLOR_RED,   curses.COLOR_BLACK)
-    curses.init_pair(3, curses.COLOR_GREEN, curses.COLOR_BLACK)
+    curses.init_pair(2, curses.COLOR_RED,   -1)
+    curses.init_pair(3, curses.COLOR_GREEN, -1)
 
     while seconds > 0:
 

@@ -13,13 +13,13 @@ def get_input(win, y, x, text):
 
 def login_window(win):
 
-    correct_username = "pascu"
-    correct_password = "pasculindo"
+    correct_username = "clementina"
+    correct_password = "dijkstra"
 
     height, width = win.getmaxyx()
 
     # Genero un par de colores rojo para los errores
-    curses.init_pair(1, curses.COLOR_WHITE, curses.COLOR_RED)
+    curses.init_pair(1, -1, curses.COLOR_RED)
 
     curses.echo()
     
