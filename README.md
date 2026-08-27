@@ -4,7 +4,7 @@ Simula ser un task manager muy simple que muestra un temporizador con cuánto ti
 Para accederlo, les jugadores necesitan ingresar el usuarix y la contraseña correspondientes.
 
 # ¡Atención!
-Por default el nombre de usuarix es `pascu`, la contraseña es `pasculindo` y el temporizador se pausa cuando se detiene la tarea llamada `Plan Malvado`. Para cambiar el nombre de usuarix y la contraseña modificá el archivo `login_window.py`
+Por default el nombre de usuarix es `clementina`, la contraseña es `dijkstra` y el temporizador se pausa cuando se detiene la tarea llamada `Plan Malvado`.
 
 # Ejecución
 El script se corre con:
