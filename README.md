@@ -3,6 +3,9 @@ Este código fue hecho para la Sala de Escape de la Semana de la Computación 20
 Simula ser un task manager muy simple que muestra un temporizador con cuánto tiempo le quedan a les jugadores.
 Para accederlo, les jugadores necesitan ingresar el usuarix y la contraseña correspondientes.
 
+# ¡Atención!
+Por default el nombre de usuarix es `pascu`, la contraseña es `pasculindo` y el temporizador se pausa cuando se detiene la tarea llamada `Plan Malvado`. Para cambiar el nombre de usuarix y la contraseña modificá el archivo `login_window.py`
+
 # Ejecución
 El script se corre con:
 ```console
@@ -14,7 +17,3 @@ Donde `minutes` es la cantidad de minutos inicial del temporizador. El temporiza
 Puede que apenas abra se crashee un poco. Encontré dos formas de resolverlo:
 1. Cancelar la ejecución (`Ctrl+C`) y volver a ejecutar.
 2. Cancelar la ejecución (`Ctrl+C`), limpiar la terminal (`Ctrl+L` o correr `clear`) y volver a ejecutar.
-
-# Defaults
-Por default el nombre de usuarix es `pascu`, la contraseña es `pasculindo` y el temporizador se pausa cuando se detiene la tarea llamada `Plan Malvado`. Podés cambiar el nombre de usuarix y la contraseña modificando el archivo `login_window.py`
-
