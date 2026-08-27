@@ -4,7 +4,7 @@ Simula ser un task manager muy simple que muestra un temporizador con cuánto ti
 Para accederlo, les jugadores necesitan ingresar el usuarix y la contraseña correspondientes.
 
 # Ejecución
-El script se corre en `/2024` con:
+El script se corre con:
 ```console
 python3 escaperoom.py [minutes]
 ```
